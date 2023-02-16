@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloheader.css">
+    <link rel="stylesheet" href="css/estilosgerais.css">
+    <link rel="stylesheet" href="css/estilomain.css">
+    <title>Challenger</title>
+</head>
+<body>
+    <header>
+        <div class="cab-mae">
+            <div class="cab-mae-logo">
+                <img src="img/logo.png" alt="LogoDaPagina">
+            </div>
+            <div class="cab-mae-barra">
+                <input type="text" class="cab-mae-barra-pesq" placeholder="Busque por algo" alt="PesquisaDeAlgo">
+            </div>
+            <div class="cab-mae-perfil">
+                <img src="img/foto-perfil.png" alt="foto-perfil">
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav class="main-menu-left">
+            <p>Menu</p>
+            <ul>
+                <li><div class="main-menu-left-div"></div><img src="img/menu-editor.png" alt="logo-editor">Editor de Codigo</li>
+                <li><div class="main-menu-left-div"></div><img src="img/menu-comunidade.png" alt="logo-comunidade"> Comunidade</li>
+            </ul>
+        </nav>
+        <nav class="main-centro">
+            <div class="main-centro-cmd">
+                <div class="main-centro-blockBlue"></div>
+                <form class="main-centro-form">
+                    <input type="text" id="main-centro-cmd-input">
+                    <input type="submit" value="Visualizar com o highlight" id="main-cetro-cmd-submit">
+                </form>
+            </div>
+        </nav>
+        <nav class="main-form-right">
+            <form class="main-form-right-form">
+                <label>SEU PROJETO</label><br>
+                <input type="text" name="proj" placeholder="Nome do seu projeto" class="input-nameProj"> <br>
+                <input type="text" name="proj2" placeholder="Descrição do seu projeto
+                " id="input-descProj"> <br>
+                <label for="prog">PERSONALIZAÇÃO</label><br>
+                <select id="prog" name="prog" class="input-nameProj">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Java">Java</option>
+                </select><br>
+                <input type="color" name="color" id="color" class="input-nameProj m1" value="#add8e6"><br>
+                <input type="submit" value="Salvar projeto" id="input-submit"><br>
+            </form>
+        </nav>
+    </main>
+</body>
+</html>

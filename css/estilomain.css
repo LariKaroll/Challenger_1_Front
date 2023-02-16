@@ -1,0 +1,172 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+:root{
+    --color-main-cinza:rgba(255, 255, 255, 0.16);
+    --colo-main-branca: white;
+}
+
+input::placeholder{
+    color: var(--colo-main-branca);
+    padding: 16px 0px 16px 14px;
+}
+
+select{
+    padding: 16px 0px 16px 14px;
+    color: var(--colo-main-branca);
+}
+
+.main-menu-left{
+    margin: 20px;
+}
+
+.main-menu-left p{
+    width: 51px;
+    height: 18px;
+    color: var(--colo-main-branca);
+    left: 32px;
+    top: 128px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+.main-menu-left ul{
+    padding: 0;
+}
+
+.main-menu-left ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--colo-main-branca);
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 16px 0px;
+}
+
+.main-menu-left ul li img{
+    width: 20px;
+    height: 16px;
+    margin: 16px;
+    
+}
+.main-menu-left ul li div{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(80, 129, 251, 0.16);
+    border-radius: 16px;
+    position: absolute;
+}
+
+.main-menu-left ul li img:hover{
+    background: var(--colo-main-branca);
+    color: var(--colo-main-branca);
+}
+.main-menu-left ul li div:hover{
+    background: #5081FB;
+}
+/* Nav central */
+.main-centro-blockBlue{
+    background-color:#6BD1FF;
+    padding: 32px;
+    gap: 10px;
+    width: 752px;
+    height: 366px;
+    left: 344px;
+    top: 128px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.main-centro-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main-centro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#main-centro-cmd-input{
+    width: 688px;
+    height: 302px;
+    padding: 16px;
+    gap: 24px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    background-color: #141414;
+    border-color: #141414;
+    position: absolute;
+}
+
+#main-cetro-cmd-submit{
+    position: static;
+    width: 752px;
+    height: 56px;
+    left: 344px;
+    top: 526px;
+    background: rgba(80, 129, 251, 0.08);
+    border-radius: 8px;
+}
+
+/* forms lado direito */
+
+.main-form-right-form label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 130px;
+    height: 18px;
+    left: 1136px;
+    top: 128px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--colo-main-branca);
+}
+
+.input-nameProj{
+    gap: 8px;
+    width: 272px;
+    height: 56px;
+    background: var(--color-main-cinza);
+    border-color: var(--color-main-cinza);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px 16px 0px;
+}
+
+#input-descProj{
+    gap: 8px;
+    width: 272px;
+    height: 80px;
+    border-radius: 8px;
+    align-self: stretch;
+    background-color: var(--color-main-cinza);
+    border-color: var(--color-main-cinza);
+    margin: 16px 0px 16px 0px;
+}
+.m1{
+    background-color: rgba(196, 196, 196, 0.01);
+    border-color: var(--colo-main-branca);
+    padding: 4px;
+}
+#input-submit{
+    width: 272px;
+    height: 56px;
+    left: 1136px;
+    top: 548px;
+    background: #5081FB;
+    border-color: #5081FB;
+    border-radius: 8px;
+}

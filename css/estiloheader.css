@@ -1,0 +1,32 @@
+.cab-mae{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cab-mae-logo img{
+    width: 255px;
+    height: 114.05px;
+    left: 0px;
+    top: 12px;
+}
+
+.cab-mae-barra input{
+    padding: 0px 14px;
+    width: 752px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 255, 255, 0.16);
+    font-size: 20px;
+    border-radius: 8px;
+    font-family:'Inter';
+    gap: 8px;
+}
+
+.cab-mae-perfil img{
+    width: 206px;
+    height: 106px;
+    border-radius: 8px;
+    padding: 8px;
+    left: 92.3%;
+}
